@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="menu js-menu">
+    <nav class="menu" data-menu="suave">
         <ul>
             <li><a href="#animais">Animais</a></li>
             <li><a href="#faq">Faq</a></li>
@@ -21,9 +21,9 @@
             <li><a href="https://www.linkedin.com/in/walysson-cavalcante-4889a92a8/">Dev →</a></li>
         </ul>
     </nav>
-    <section class="grid-section animais js-scroll" id="animais">
+    <section class="grid-section animais" data-anime="scroll" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-        <ul class="animais-lista js-tabmenu">
+        <ul class="animais-lista" data-tab='menu'>
             <li>
                 <img src="assets/imagem1.jpg">
             </li>
@@ -43,43 +43,43 @@
                 <img src="assets/imagem6.jpg">
             </li>
         </ul>
-        <div class="animais-descricao js-tabcontent">
-            <section>
+        <div class="animais-descricao" data-tab="content">
+            <section data-anime="show-right">
                 <h2>Raposa</h2>
                 <p>Raposas são pequenos a médios mamíferos onívoros pertencentes a vários gêneros da família Canidae. As raposas têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma cauda longa e peluda.</p>
                 <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
                 <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertecem ao gênero Vulpes das "raposas verdadeiras", do qual a raposa vermelha é a mais comum.</p>
                 <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
             </section>
-            <section>
+            <section data-anime="show-right">
                 <h2>Esquilo</h2>
                 <p>Esquilos são pequenos mamíferos roedores pertencentes à família Sciuridae. Os esquilos possuem corpos esguios, caudas longas e peludas, olhos grandes e vibrissas sensíveis, que os ajudam a detectar mudanças no ambiente.</p>
                 <p>Também apresentam como particularidade seus dentes incisivos de crescimento contínuo, adaptados para roer sementes e cascas de árvores.</p>
                 <p>Das mais de 200 espécies reconhecidas de esquilos, eles podem ser classificados em três grupos principais: esquilos arborícolas, terrestres e voadores, sendo os esquilos-vermelhos e os esquilos-cinzentos os mais conhecidos.</p>
                 <p>Também apresentam como particularidade sua agilidade excepcional, permitindo que saltem de galho em galho com grande precisão.</p>
             </section>
-            <section>
+            <section data-anime="show-down">
                 <h2>Ursos</h2>
                 <p>Ursos são grandes mamíferos onívoros pertencentes à família Ursidae. Os ursos possuem corpos robustos, patas fortes com garras afiadas, focinho alongado e uma densa pelagem que os protege do frio.</p>
                 <p>Também apresentam como particularidade sua excelente capacidade olfativa, sendo considerada uma das mais aguçadas do reino animal.</p>
                 <p>Das oito espécies de ursos existentes, os mais conhecidos são o urso-pardo, o urso-polar e o urso-negro, cada um adaptado a diferentes habitats ao redor do mundo.</p>
                 <p>Também apresentam como particularidade sua habilidade de ficar em pé sobre as patas traseiras, o que os ajuda a observar o ambiente e se comunicar.</p>
             </section>
-            <section>
+            <section data-anime="show-down">
                 <h2>Lobos</h2>
                 <p>Lobos são grandes mamíferos carnívoros pertencentes à família Canidae. Os lobos possuem corpos esguios e musculosos, focinhos alongados, orelhas eretas e caudas peludas que ajudam na comunicação.</p>
                 <p>Também apresentam como particularidade sua estrutura social complexa, vivendo em matilhas organizadas com hierarquia bem definida.</p>
                 <p>Das várias subespécies de lobo, o lobo-cinzento é o mais comum e pode ser encontrado em diversas regiões do hemisfério norte.</p>
                 <p>Também apresentam como particularidade sua vocalização diversificada, sendo o uivo uma de suas formas mais icônicas de comunicação à distância.</p>
             </section>
-            <section>
+            <section data-anime="show-right">
                 <h2>Macaco</h2>
                 <p>Macacos são mamíferos primatas pertencentes à ordem Primates. Possuem corpos ágeis, caudas longas em muitas espécies, mãos e pés preênseis, adaptados para segurar e manipular objetos com destreza.</p>
                 <p>Também apresentam como particularidade sua grande inteligência e habilidades sociais, vivendo em grupos organizados com complexos sistemas de comunicação.</p>
                 <p>Existem mais de 260 espécies de macacos, divididas entre os do Novo Mundo, como o bugio e o sagui, e os do Velho Mundo, como o babuíno e o macaco-japonês.</p>
                 <p>Também apresentam como particularidade sua capacidade de usar ferramentas, demonstrando comportamento altamente adaptativo ao ambiente.</p>
             </section>
-            <section>
+            <section data-anime="show-right">
                 <h2>Leão</h2>
                 <p>Leões são grandes mamíferos carnívoros pertencentes à família Felidae e ao gênero Panthera. Os leões têm um crânio robusto, orelhas arredondadas, focinho curto e poderoso, e uma cauda longa com uma juba característica nos machos.</p>
                 <p>Também apresentam como particularidade suas pupilas redondas, adaptadas para uma visão noturna eficiente, o que é comum entre os felinos.</p>
@@ -88,9 +88,9 @@
             </section>
         </div>
     </section>
-    <section class="grid-section faq js-scroll" id="faq">
+    <section class="grid-section faq" data-anime="scroll" id="faq">
         <h1 class="titulo">FAQ</h1>
-        <dl class="faq-lista js-accordion">
+        <dl class="faq-lista" data-anime="accordion">
             <dt>Qual a idade dos animais?</dt>
             <dd>Raposas são pequenos a médios mamíferos onívoros pertencentes a vários gêneros da família Canidae. As raposas têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma cauda longa e peluda.</dd>
             <dt>Eles são Fantásticos?</dt>
@@ -101,7 +101,7 @@
             <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
         </dl>
     </section>
-    <section class="grid-section contato js-scroll" id="contato">
+    <section class="grid-section contato" data-anime="scroll" id="contato">
         <h1 class="titulo">Contato</h1>
         <div class="mapa">
             <img src="assets/mapa.png">
