@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 500;
   background: rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 0 2px #fb5, 0 0 0 6px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 2px #f4a384, 0 0 0 6px rgba(0, 0, 0, 0.6);
   padding: 1.5rem;
   color: #ffff;
   font-family: "IBM Plex Mono", monospace;

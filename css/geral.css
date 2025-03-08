@@ -14,7 +14,7 @@ ul {
 }
 
 body {
-  background-color: #faf6ed;
+  background-color: #faefe9;
   color: #222;
   -webkit-font-smoothing: antialiased;
 }
@@ -28,7 +28,7 @@ body {
   grid-column: 3 / 5;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: #fb5;
+  background: #f4a384;
 }
 
 .menu ul {
@@ -76,7 +76,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  color: #e54;
+  color: #7a5063;
 }
 
 .animais h2::before {
@@ -85,7 +85,7 @@ body {
   width: 40px;
   height: 10px;
   margin-right: 10px;
-  background: #fb5;
+  background: #f4a384;
 }
 
 .animais p {
@@ -109,7 +109,7 @@ body {
 }
 
 .animais-lista::-webkit-scrollbar-thumb {
-  background: #fb5;
+  background: #f4a384;
   border-left: 4px solid #faf6ed;
   border-right: 4px solid #faf6ed;
 }
@@ -135,7 +135,7 @@ body {
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: #e54;
+  color: #7a5063;
 }
 
 .faq-lista dt::before {
@@ -144,7 +144,7 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #fb5;
+  background: #f4a384;
 }
 
 .faq-lista dd {
@@ -172,13 +172,13 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #fb5;
+  background: #f4a384;
 }
 
 .copy {
   grid-column: 3 / 5;
   margin-bottom: 2rem;
-  background: #fb5;
+  background: #f4a384;
 }
 
 .copy p {

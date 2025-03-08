@@ -18,7 +18,7 @@
 .modal {
   background: white;
   padding: 40px;
-  border: 10px solid #fb5;
+  border: 10px solid #f4a384;
   box-shadow: 0 0 0 10px white;
   position: relative;
   min-width: 300px;
@@ -47,7 +47,7 @@
   position: absolute;
   top: -30px;
   right: -30px;
-  background: #e54;
+  background: #7a5063;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
   font-size: 1.2rem;
   color: #ffff;
@@ -70,7 +70,7 @@
 
 .modal button[type="submit"] {
   display: block;
-  background: #e54;
+  background: #7a5063;
   border: none;
   border-radius: 4px;
   padding: 0.7rem 1.2rem;
