@@ -8,7 +8,7 @@ export default function outsideClick(element, events, callback) {
         html.addEventListener(userEvent, handleOutsideClick);
       });
     });
-    element.setAttribute(outside);
+    element.setAttribute(outside, "");
   }
   function handleOutsideClick(event) {
     if (!element.contains(event.target)) {
